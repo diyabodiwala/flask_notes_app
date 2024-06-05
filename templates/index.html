@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <a href="{{ url_for('create') }}">Create a new note</a>
+    <ul>
+        {% for note in notes %}
+            <li>
+                <a href="{{ url_for('edit', note_id=note.id) }}">{{ note.title }}</a>
+                <a href="{{ url_for('delete', note_id=note.id) }}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
