@@ -13,7 +13,7 @@ A simple note-taking web application built with Flask.
 
 1. Clone the repository:
 
-```bash
+bash
 git clone https://github.com/yourusername/flask_notes_app.git
 cd flask_notes_app
 
