@@ -32,12 +32,12 @@ python app.py
 
 5. Open your web browser and navigate to 'http://127.0.0.1:5000/'
 
-License
+## License
 
 This project is licensed under the MIT License.
 
 
-### How to Use
+## How to Use
 
 1. **Set up the environment:** Follow the instructions in the `README.md` to set up your environment and run the application.
 2. **Access the application:** Open your web browser and go to `http://127.0.0.1:5000/`.
